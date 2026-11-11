@@ -31,5 +31,5 @@
   - Ran `scripts/validate_projects.py` (12/12 PASS), Pytest backend suite (`7 passed in 2.96s`), TypeScript compiler check (`tsc --noEmit` 0 errors), Vite production build (`dist/` generated in 5.88s), and live HTTP E2E check (`scripts/run_e2e_check.py`). Documented in `docs/TESTING.md`.
 - [x] **PHASE 11 — Prepare documentation and release**
   - Created `backend/Dockerfile`, `frontend/Dockerfile`, `docker-compose.yml`, `.env.example`, `.gitignore`, `.github/workflows/ci.yml`, `README.md`, and `docs/DEPLOYMENT.md`.
-- [x] **PHASE 12 — Initialize local Git repository & prepare for approved GitHub remote push**
-  - Committed all verified source code, tests, documentation, and evidence into local Git repository on branch `main` with zero secrets. Ready for remote push once GitHub authentication and target repository URL are approved by the owner.
+- [x] **PHASE 12 — Publish to the approved GitHub repository**
+  - Created dedicated public repository `https://github.com/aimanqais1/it-experts-the-proof-room` and verified remote push of branch `main` (`b5772c376a47a12eefd8443f164f11e7006de830`).
